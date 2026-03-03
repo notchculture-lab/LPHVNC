@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+  <title>Hydra Visual</title>
+  <script src="https://unpkg.com/hydra-synth"></script>
+  <style>
+    body { margin: 0; overflow: hidden; }
+  </style>
+</head>
+<body>
+<script>
+
+const hydra = new Hydra()
+
+noise(1,2,1).hue().color(1,10,14,).luma().kaleid(1).colorama(2).scroll(3).out()
+
+</script>
+</body>
+</html>
